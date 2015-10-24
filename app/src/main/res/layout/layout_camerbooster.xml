@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CameraActivity">
+
+    <View
+        android:id="@+id/topCoverView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@android:color/black"></View>
+
+    <View
+        android:id="@+id/bottomCoverView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/black"></View>
+
+
+</RelativeLayout>

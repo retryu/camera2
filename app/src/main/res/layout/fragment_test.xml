@@ -1,0 +1,22 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="com.mogujie.transformer.camera.CameraActivity">
+
+        <ImageView
+            android:id="@+id/capture_image_button"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_alignBottom="@id/cameraBooster"
+            android:layout_marginLeft="360dp"
+            android:background="@drawable/btn_capture"
+            />
+
+
+
+
+
+
+</FrameLayout>
